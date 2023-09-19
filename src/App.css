@@ -10,8 +10,21 @@ a {
   cursor: pointer;
 }
 
-.comingsoon-tag > img {
+.comingsoon-tag {
   width: 100%;
+  background-color: #ffa500;
+  height: 100px;
+}
+
+.comingsoon-tag h3 {
+  font-size: 70px;
+  margin: 0;
+  font-weight: 700;
+  color: #a86d00;
+  animation: animate 15s linear infinite;
+  padding-left: 100%;
+  display: inline-block;
+  white-space: nowrap;
 }
 
 h2 {
@@ -58,5 +71,11 @@ h2 {
     display: flex;
     flex-direction: column;
     gap: 70px;
+  }
+}
+
+@keyframes animate {
+  100% {
+    transform: translate(-100%, 0);
   }
 }

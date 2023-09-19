@@ -62,9 +62,10 @@ function App() {
     <>
       <Navbar />
       <Header />
-      <section className="comingsoon-tag">
-        <img src={comingsoon} />
-      </section>
+      <div className="comingsoon-tag">
+        <h3>COMING SOON COMING SOON COMING SOON COMING SOON COMING SOON</h3>
+      </div>
+
       <section className="features">
         <h2>
           <span className="special">Fe</span>atures
