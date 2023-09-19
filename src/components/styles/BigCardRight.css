@@ -11,12 +11,12 @@
 }
 
 .bigcardright-container h4 {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 600;
 }
 
 .bigcardright-container p {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 400;
 }
 
@@ -30,7 +30,7 @@
   opacity: 0.1;
 }
 
-@media all and (max-width: 1200px) {
+@media all and (max-width: 1050px) {
   .image-container {
     display: none;
   }
