@@ -1,8 +1,9 @@
 .header-container {
   display: flex;
-  padding: 50px 112px;
+  padding: 20px 112px;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .header-container > div {
@@ -33,7 +34,7 @@
 
 .btns-container {
   width: 80%;
-  max-width: 480px;
+  max-width: 360px;
   display: flex;
   justify-content: space-between;
 }
@@ -49,7 +50,7 @@
 
 @media all and (max-width: 900px) {
   .header-container {
-    padding: 50px;
+    padding: 20px 50px;
   }
 }
 

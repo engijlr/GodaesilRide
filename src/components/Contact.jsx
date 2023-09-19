@@ -10,7 +10,7 @@ function Contact() {
         We'll send you an update notification for you to know we are now live
       </p>
       <form>
-        <label htmlFor="email">Email*</label>
+        <label htmlFor="email">Email</label>
         <input type="email" id="email" placeholder="e.g,. email@example.com" />
         <Button text="Join Waitlist" />
       </form>

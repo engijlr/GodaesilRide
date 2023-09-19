@@ -66,7 +66,7 @@ function App() {
         <h3>COMING SOON COMING SOON COMING SOON COMING SOON COMING SOON</h3>
       </div>
 
-      <section className="features">
+      <section className="features" id="features">
         <h2>
           <span className="special">Fe</span>atures
         </h2>

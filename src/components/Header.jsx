@@ -5,7 +5,7 @@ import "./styles/Header.css";
 
 function Header() {
   return (
-    <div className="header-container">
+    <div className="header-container" id="header">
       <div className="text-section">
         <h1>Delivery made Easier, Better and Faster</h1>
         <p>
