@@ -1,0 +1,36 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 112px;
+  height: 100%;
+}
+
+.navbar-container > div {
+  width: 50%;
+}
+
+.burger-icon-nav {
+  width: 56px;
+  vertical-align: middle;
+  margin-bottom: -1.5rem;
+  display: none;
+}
+
+.burger-icon-nav img {
+  width: 100%;
+}
+
+.navbar-links ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.navbar-links > ul > li {
+  color: #292929;
+  font-size: 24px;
+  font-weight: 510;
+  min-width: 112px;
+}

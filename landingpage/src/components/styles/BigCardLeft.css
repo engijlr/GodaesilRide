@@ -1,0 +1,31 @@
+.bigcardleft-container {
+  background-color: #ffa500;
+  margin: 100px 112px;
+  border-radius: 30px;
+  padding: 80px 145px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  position: relative;
+  overflow: hidden;
+}
+
+.bigcardleft-container h4 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.bigcardleft-container p {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.location-icon-left {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.location-icon-left img {
+  opacity: 0.1;
+}

@@ -1,0 +1,36 @@
+body {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.comingsoon-tag > img {
+  width: 100%;
+}
+
+h2 {
+  font-size: 80px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.special {
+  color: #ffa500;
+}
+
+.features {
+  padding: 0 112px;
+}
+
+.small-cards-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 96px;
+}
