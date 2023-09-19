@@ -11,6 +11,7 @@ import sendIcon from "./assets/send.png";
 import Footer from "./components/Footer";
 import BigCardLeft from "./components/BigCardLeft";
 import BigCardRight from "./components/BigCardRight";
+import Contact from "./components/Contact";
 
 const cardsData = [
   {
@@ -77,7 +78,7 @@ function App() {
       </section>
       <BigCardLeft />
       <BigCardRight />
-      <section>newsletters</section>
+      <Contact />
       <Footer />
     </>
   );

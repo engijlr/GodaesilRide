@@ -1,0 +1,39 @@
+.newsletter-section {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 112px;
+}
+
+.newsletter-section h3 {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 110%;
+  margin: 0;
+}
+
+.newsletter-section p {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.newsletter-section > form > label {
+  display: block;
+  color: #0b0b0b;
+  font-size: 20px;
+  margin-bottom: 14px;
+}
+
+.newsletter-section > form > input {
+  background-color: #fff5dd;
+  border: none;
+  height: 50px;
+  padding: 14px;
+  box-sizing: border-box;
+  width: 80%;
+}
+
+.newsletter-section > form > button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  width: 20%;
+}
