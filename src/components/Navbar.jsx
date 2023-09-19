@@ -3,7 +3,7 @@ import burgerIcon from "../assets/burger.svg";
 import "./styles/Navbar.css";
 import Button from "./Button";
 import { FaX } from "react-icons/fa6";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 
 import { useState } from "react";
 
@@ -25,16 +25,20 @@ function Navbar() {
       <div className={`navbar-links ${showNavbar && "active-navlinks"}`}>
         <ul>
           <li>
-            <a href="header">About Us</a>
+            <Link to="header">About Us</Link>
           </li>
           <li>
-            <a href="features">Features</a>
+            <Link to="features" smooth={true} spy={true} offset={-200}>
+              Features
+            </Link>
           </li>
           <li>
-            <a href="#">Privacy</a>
+            <Link href="#">Privacy</Link>
           </li>
           <li>
-            <Button text="Join Waitlist" />
+            <Link to="contact" smooth={true} spy={true} offset={-200}>
+              <Button text="Join Waitlist" />
+            </Link>
           </li>
         </ul>
       </div>

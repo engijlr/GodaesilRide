@@ -1,7 +1,6 @@
 import "./App.css";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
-import comingsoon from "./assets/comingsoon.png";
 import SmallCard from "./components/SmallCard";
 import cashIcon from "./assets/cil_cash.png";
 import boxIcon from "./assets/package-light.png";

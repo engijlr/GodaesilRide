@@ -1,7 +1,8 @@
 import "./styles/Button.css";
+import { Button } from "react-scroll";
 
-function Button(props) {
+function ButtonEl(props) {
   return <button>{props.text}</button>;
 }
 
-export default Button;
+export default ButtonEl;
