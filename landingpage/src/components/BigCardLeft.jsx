@@ -1,26 +1,21 @@
 import React from "react";
-import iphone1 from "../assets/iphone1.png";
 import "./styles/BigCardLeft.css";
-import locationIcon from "../assets/VectorLocation.png";
 
-function BigCardLeft() {
+function BigCard(props) {
   return (
     <div className="bigcardleft-container">
-      <div>
-        <img src={iphone1} />
+      <div className="image-container">
+        <img src={props.image} />
       </div>
       <div>
-        <h4>Track Deliveries in Real-time</h4>
-        <p>
-          Stay in control with our real-time delivery tracking. Know where your
-          order is and when it will arrive, ensuring a seamless experience.
-        </p>
+        <h4>{props.title}</h4>
+        <p>{props.text}</p>
       </div>
       <div className="location-icon-left">
-        <img src={locationIcon} />
+        <img src={props.location} />
       </div>
     </div>
   );
 }
 
-export default BigCardLeft;
+export default BigCard;

@@ -29,3 +29,23 @@
 .location-icon-right img {
   opacity: 0.1;
 }
+
+@media all and (max-width: 1200px) {
+  .image-container {
+    display: none;
+  }
+}
+
+@media all and (max-width: 900px) {
+  .bigcardright-container {
+    background-color: #ffa500;
+    margin: 50px;
+    border-radius: 30px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+    overflow: hidden;
+  }
+}

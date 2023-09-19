@@ -6,8 +6,12 @@
   height: 100%;
 }
 
-.navbar-container > div {
-  width: 50%;
+.navbar-container .logo-container {
+  width: 35%;
+}
+
+.navbar-container .navbar-links {
+  width: 65%;
 }
 
 .burger-icon-nav {
@@ -26,11 +30,61 @@
   justify-content: space-between;
   align-items: center;
   list-style-type: none;
+  max-width: 100%;
 }
 
 .navbar-links > ul > li {
   color: #292929;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 510;
-  min-width: 112px;
+  padding-left: 10px;
+}
+
+.navbar-links > li > button {
+  max-width: 80%;
+}
+
+@media all and (max-width: 1000px) {
+  .burger-icon-nav {
+    display: block;
+    cursor: pointer;
+  }
+  .navbar-links {
+    position: absolute;
+    right: 0;
+    top: 90px;
+    background-color: white;
+    width: 0;
+    height: 100vh;
+    transition: all 0.3s ease-in;
+    overflow: hidden;
+    border-radius: 5px;
+    z-index: 1;
+  }
+  .navbar-container .navbar-links {
+    width: 0;
+  }
+  .navbar-links.active-navlinks {
+    width: 100vw;
+  }
+  .navbar-links > ul {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 2rem;
+    align-items: center;
+  }
+  .navbar-links > ul > li {
+    margin-right: 0;
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+}
+
+@media all and (max-width: 900px) {
+  .navbar-container {
+    padding: 50px;
+  }
+  .navbar-container .logo-container img {
+    width: 100%;
+  }
 }

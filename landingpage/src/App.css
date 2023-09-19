@@ -32,5 +32,31 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
-  gap: 96px;
+  gap: 70px;
+}
+
+@media all and (max-width: 1000px) {
+  .small-cards-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 70px;
+  }
+}
+
+@media all and (max-width: 900px) {
+  .features {
+    padding: 0 50px;
+  }
+  h2 {
+    font-size: 60px;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .small-cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+  }
 }
