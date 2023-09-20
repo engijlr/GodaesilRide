@@ -89,4 +89,13 @@
   .navbar-container .logo-container img {
     width: 100%;
   }
+  .navbar-container .logo-container {
+    width: 45%;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .navbar-container .logo-container {
+    width: 50%;
+  }
 }
