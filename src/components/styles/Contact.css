@@ -5,21 +5,21 @@
 }
 
 .newsletter-section h3 {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 600;
   line-height: 110%;
   margin: 0;
 }
 
 .newsletter-section p {
-  font-size: 30px;
+  font-size: 18px;
   font-weight: 400;
 }
 
 .newsletter-section > form > label {
   display: block;
   color: #0b0b0b;
-  font-size: 20px;
+  font-size: 16px;
   margin-bottom: 14px;
 }
 
@@ -47,5 +47,20 @@
   }
   .newsletter-section > form > button {
     width: 30%;
+  }
+}
+
+@media all and (max-width: 750px) {
+  .newsletter-section > form > input {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+    margin-bottom: 16px;
+  }
+
+  .newsletter-section > form > button {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
   }
 }

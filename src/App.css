@@ -73,6 +73,23 @@ h2 {
     flex-direction: column;
     gap: 70px;
   }
+  .comingsoon-tag {
+    width: 100%;
+    background-color: #ffa500;
+    height: 60px;
+    overflow: hidden;
+  }
+
+  .comingsoon-tag h3 {
+    font-size: 50px;
+    margin: 0;
+    font-weight: 700;
+    color: #a86d00;
+    animation: animate 15s linear infinite;
+    padding-left: 100%;
+    display: inline-block;
+    white-space: nowrap;
+  }
 }
 
 @keyframes animate {

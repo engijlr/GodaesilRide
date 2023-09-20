@@ -4,6 +4,7 @@
   border-radius: 30px;
   padding: 80px 145px;
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 50px;
   position: relative;
@@ -11,12 +12,13 @@
 }
 
 .bigcardleft-container h4 {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 600;
+  margin: 16px 0;
 }
 
 .bigcardleft-container p {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 400;
 }
 
@@ -31,21 +33,35 @@
 }
 
 @media all and (max-width: 1050px) {
-  .image-container {
-    display: none;
+  .image-container > img {
+    height: 400px;
   }
 }
 
 @media all and (max-width: 900px) {
   .bigcardleft-container {
-    background-color: #ffa500;
-    margin: 50px;
-    border-radius: 30px;
-    padding: 50px;
     display: flex;
-    align-items: center;
-    gap: 50px;
-    position: relative;
-    overflow: hidden;
+    flex-direction: column;
+    padding: 30px 50px;
+    gap: 10px;
+    margin: 50px;
+  }
+  .bigcardleft-container h4 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .image-container > img {
+    height: 300px;
+  }
+
+  .bigcardleft-container p {
+    font-size: 20px;
+    font-weight: 400;
+  }
+}
+
+@media all and (max-width: 670px) {
+  .image-container > img {
+    height: 200px;
   }
 }

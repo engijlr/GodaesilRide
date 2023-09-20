@@ -5,7 +5,7 @@ import Button from "./Button";
 import { FaX } from "react-icons/fa6";
 import { Link } from "react-scroll";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 function Navbar() {
   const [showNavbar, setShowNavbar] = useState(false);
@@ -13,6 +13,19 @@ function Navbar() {
   const handleShowNavbar = () => {
     setShowNavbar(!showNavbar);
   };
+
+  useEffect(() => {
+    if (typeof window !== "undefined" && window.document) {
+      if (showNavbar) {
+        document.body.style.overflow = "hidden";
+      } else {
+        document.body.style.overflow = "auto";
+      }
+    }
+    return () => {
+      document.body.style.overflow = "auto";
+    };
+  }, [showNavbar]);
 
   return (
     <nav className="navbar-container">

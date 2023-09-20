@@ -5,18 +5,20 @@
   padding: 80px 145px;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 50px;
   position: relative;
   overflow: hidden;
 }
 
 .bigcardright-container h4 {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 600;
+  margin: 16px 0;
 }
 
 .bigcardright-container p {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 400;
 }
 
@@ -31,21 +33,37 @@
 }
 
 @media all and (max-width: 1050px) {
-  .image-container {
-    display: none;
+  .image-container > img {
+    height: 400px;
   }
 }
 
 @media all and (max-width: 900px) {
   .bigcardright-container {
-    background-color: #ffa500;
-    margin: 50px;
-    border-radius: 30px;
-    padding: 50px;
     display: flex;
-    align-items: center;
-    gap: 50px;
-    position: relative;
-    overflow: hidden;
+    flex-direction: column;
+    padding: 30px 50px;
+    gap: 10px;
+    margin: 50px;
+  }
+
+  .bigcardright-container h4 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .image-container > img {
+    height: 300px;
+  }
+
+  .bigcardright-container p {
+    font-size: 20px;
+    font-weight: 400;
+  }
+}
+
+@media all and (max-width: 670px) {
+  .image-container > img {
+    height: 200px;
   }
 }
