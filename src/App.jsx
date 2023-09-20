@@ -82,30 +82,33 @@ function App() {
           ))}
         </div>
       </section>
-      <BigCardLeft
-        title="Track Deliveries in Real-time"
-        image={iphone1}
-        text="Stay in control with our real-time delivery tracking. Know where your order is and when it will arrive, ensuring a seamless experience."
-        location={locationIcon}
-      />
-      <BigCardRight
-        title="Trusted Delivery Services"
-        image={iphone2}
-        text="Trust our reliable delivery services for peace of mind. We prioritize safety and efficiency to ensure your packages are in good hands."
-        location={locationRightIcon}
-      />
-      <BigCardLeft
-        title="In-App Message With Image Sharing"
-        image={iphone3}
-        text="Connect seamlessly with in-app messaging and share photos instantly. Enhance communication and provide visual context for a more efficient delivery experience."
-        location={locationIcon}
-      />
-      <BigCardRight
-        title="Get Estimate"
-        image={iphone4}
-        text="Get a quick estimate. Plan your delivery cost with our easy-to-use estimate tool."
-        location={locationRightIcon}
-      />
+      <section id="about">
+        <BigCardLeft
+          title="Track Deliveries in Real-time"
+          image={iphone1}
+          text="Stay in control with our real-time delivery tracking. Know where your order is and when it will arrive, ensuring a seamless experience."
+          location={locationIcon}
+        />
+        <BigCardRight
+          title="Trusted Delivery Services"
+          image={iphone2}
+          text="Trust our reliable delivery services for peace of mind. We prioritize safety and efficiency to ensure your packages are in good hands."
+          location={locationRightIcon}
+        />
+        <BigCardLeft
+          title="In-App Message With Image Sharing"
+          image={iphone3}
+          text="Connect seamlessly with in-app messaging and share photos instantly. Enhance communication and provide visual context for a more efficient delivery experience."
+          location={locationIcon}
+        />
+        <BigCardRight
+          title="Get Estimate"
+          image={iphone4}
+          text="Get a quick estimate. Plan your delivery cost with our easy-to-use estimate tool."
+          location={locationRightIcon}
+        />
+      </section>
+
       <Contact />
       <Footer />
     </>

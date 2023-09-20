@@ -14,6 +14,11 @@ function Navbar() {
     setShowNavbar(!showNavbar);
   };
 
+  const handleClosing = () => {
+    setShowNavbar(false);
+    console.log("close");
+  };
+
   useEffect(() => {
     if (typeof window !== "undefined" && window.document) {
       if (showNavbar) {
@@ -38,10 +43,24 @@ function Navbar() {
       <div className={`navbar-links ${showNavbar && "active-navlinks"}`}>
         <ul>
           <li>
-            <Link to="header">About Us</Link>
+            <Link
+              to="about"
+              smooth={true}
+              spy={true}
+              offset={-200}
+              onClick={handleClosing}
+            >
+              About Us
+            </Link>
           </li>
-          <li>
-            <Link to="features" smooth={true} spy={true} offset={-200}>
+          <li onClick={handleClosing}>
+            <Link
+              to="features"
+              smooth={true}
+              spy={true}
+              offset={-200}
+              onClick={handleClosing}
+            >
               Features
             </Link>
           </li>
@@ -49,7 +68,13 @@ function Navbar() {
             <Link href="#">Privacy</Link>
           </li>
           <li>
-            <Link to="contact" smooth={true} spy={true} offset={-200}>
+            <Link
+              to="contact"
+              smooth={true}
+              spy={true}
+              offset={-200}
+              onClick={handleClosing}
+            >
               <Button text="Join Waitlist" />
             </Link>
           </li>

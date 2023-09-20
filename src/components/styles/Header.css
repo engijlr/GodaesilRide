@@ -20,6 +20,7 @@
 
 .text-section p {
   width: 80%;
+  text-align: justify;
 }
 
 .header-container .image-section {
@@ -68,7 +69,7 @@
     align-items: start;
   }
   .text-section h1 {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 700;
     line-height: 110%;
     margin: 15px 0;
