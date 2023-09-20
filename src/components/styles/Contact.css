@@ -40,7 +40,7 @@
 
 @media all and (max-width: 900px) {
   .newsletter-section {
-    padding: 50px;
+    padding: 20px;
   }
   .newsletter-section > form > input {
     width: 70%;

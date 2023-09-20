@@ -50,7 +50,7 @@
 
 @media all and (max-width: 900px) {
   .header-container {
-    padding: 20px 50px;
+    padding: 20px;
   }
 }
 
@@ -68,7 +68,7 @@
     align-items: start;
   }
   .text-section h1 {
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 700;
     line-height: 110%;
     margin: 15px 0;
