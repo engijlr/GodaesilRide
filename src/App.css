@@ -46,7 +46,7 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
-  gap: 70px;
+  gap: 50px;
 }
 
 @media all and (max-width: 1000px) {
@@ -54,13 +54,13 @@ h2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    gap: 70px;
+    gap: 25px;
   }
 }
 
 @media all and (max-width: 900px) {
   .features {
-    padding: 0 20px;
+    padding: 20px;
     width: 70%;
     margin: auto;
   }
