@@ -2,6 +2,7 @@ import React from "react";
 import Button from "./Button";
 import headerImg from "../assets/Group 39407.png";
 import "./styles/Header.css";
+import { Link } from "react-scroll";
 
 function Header() {
   return (
@@ -14,7 +15,9 @@ function Header() {
         </p>
         <div className="btns-container">
           <Button text="Book Demo" />
-          <Button text="Join Waitlist" />
+          <Link to="contact" smooth={true} spy={true} offset={-200}>
+            <Button text="Join Waitlist" />
+          </Link>
         </div>
       </div>
       <div className="image-section">

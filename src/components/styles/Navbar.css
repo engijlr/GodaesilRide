@@ -10,6 +10,10 @@
   width: 35%;
 }
 
+.navbar-container .logo-container img {
+  width: 50%;
+}
+
 .navbar-container .navbar-links {
   width: 65%;
   max-width: 600px;
@@ -87,7 +91,7 @@
     padding: 20px;
   }
   .navbar-container .logo-container img {
-    width: 100%;
+    width: 50%;
   }
   .navbar-container .logo-container {
     width: 45%;

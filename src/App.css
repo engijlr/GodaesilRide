@@ -61,6 +61,8 @@ h2 {
 @media all and (max-width: 900px) {
   .features {
     padding: 0 20px;
+    width: 70%;
+    margin: auto;
   }
   h2 {
     font-size: 35px;
